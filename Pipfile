@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pypdf = "*"
+streamlit = "*"
+keybert = "*"
+transformers = "4.31.0"
+torch = "2.0.1"
+python-dotenv = "*"
+sentence-transformers = "*"
+huggingface-hub = ">=0.15.1"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
